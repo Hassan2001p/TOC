@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TOC</title>
+    <!-- CSS File -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Bootstrap File -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- Icons File -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".fixed-top">
+    <div class="header" id="home">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#home">
+                        <p> Hello '_' TOC</p>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#home">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="login.html">Login</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="registration.html">Registration</a>
+                            </li>
+                        </ul>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!--   End of Navbar   -->
+        </div>
+    </div>
+    <!-- End Header -->
+    <!-- <audio id="my_audio" src="bensound-creativeminds.mp3" loop="loop"></audio> -->
+    <!-- Start Gallary -->
+    <div class="container-box">
+        <h1 class="heading"></h1>
+        <input type="text" placeholder="Search your favorite food" id="search-box">
+        <div class="image-container">
+            <div class="image" data-title="A">
+                <img src="images/p1.png" alt="ITALIAN SOURCE MUSHROOM" onclick="openLightbox();toSlide(1)" class="hover-shadow preview" />
+                <h6>(A) <br> ITALIAN SOURCE MUSHROOM</h6>
+            </div>
+            <div class="image" data-title="B">
+                <img src="images/p2.png" alt="ITALIAN SOURCE MUSHROOM" onclick="openLightbox();toSlide(2)" class="hover-shadow preview" />
+                <h6>(B) <br> ITALIAN SOURCE MUSHROOM</h6>
+            </div>
+            <div class="image" data-title="C">
+                <img src="images/p3.png" alt="ITALIAN SOURCE MUSHROOM" onclick="openLightbox();toSlide(3)" class="hover-shadow preview" />
+                <h6>(C) <br> ITALIAN SOURCE MUSHROOM</h6>
+            </div>
+            <div class="image" data-title="D">
+                <img src="images/p4.png" alt="ITALIAN SOURCE MUSHROOM" onclick="openLightbox();toSlide(4)" class="hover-shadow preview" />
+                <h6>(D) <br> ITALIAN SOURCE MUSHROOM</h6>
+            </div>
+            <div class="image" data-title="E">
+                <img src="images/p5.png" alt="ITALIAN SOURCE MUSHROOM" onclick="openLightbox();toSlide(5)" class="hover-shadow preview" />
+                <h6>(E) <br> ITALIAN SOURCE MUSHROOM</h6>
+            </div>
+            <div class="image" data-title="F">
+                <img src="images/p6.png" alt="ITALIAN SOURCE MUSHROOM" onclick="openLightbox();toSlide(6)" class="hover-shadow preview" />
+                <h6>(F) <br> Creamy Pasta</h6>
+            </div>
+            <div class="image" data-title="G">
+                <img src="images/p7.png" alt="ITALIAN SOURCE MUSHROOM" onclick="openLightbox();toSlide(7)" class="hover-shadow preview" />
+                <h6>(G) <br> ITALIAN SOURCE MUSHROOM</h6>
+            </div>
+            <div class="image" data-title="H">
+                <img src="images/p8.png" alt="ITALIAN SOURCE MUSHROOM" onclick="openLightbox();toSlide(8)" class="hover-shadow preview" />
+                <h6>(H) <br> ITALIAN SOURCE MUSHROOM</h6>
+            </div>
+        </div>
+    </div>
+    <!-- End Gallary -->
+    <!-- Start Contact -->
+    <div class="contact">
+        <div id="contact">
+            <div class="container">
+                <div class="main-heading">
+                    <!---->
+                    <h2>Contact Us</h2>
+                </div>
+                <div class="content">
+                    <form>
+                        <input class="main-input" type="text" name="name" placeholder="Your Name" />
+                        <input class="main-input" type="email" name="mail" placeholder="Your Email" />
+                        <!--<p>Change Background-color : </p>
+              <div class="radio" id="radio1">
+              <input type="radio" name="colors" id="red" onclick="myfunction1()" value="Action1" /> Red
+              </div>
+              <div class="radio" id="radio2">
+              <input type="radio" name="colors" id="blue" onclick="myfunction2()" value="Action2" /> Blue
+              </div>
+              <div class="radio" id="radio3">
+              <input type="radio" name="colors" id="green" onclick="myfunction3()" value="Action3" /> Green
+            </div>-->
+                        <textarea class="main-input" name="message" placeholder="Your Message" id="message">
+            </textarea>
+                        <input type="submit" value="Send Message" />
+                    </form>
+                    <div class="info">
+                        <h4>PHONE :</h4>
+                        <span class="phone">+20 01223009501</span>
+                        <span class="phone">+20 01501855447</span>
+                        <h4>ADDRESS :</h4>
+                        <address>Segar / house / 36<br/>Tanta<br/>EGYPT</address>
+                        <h4>
+                            Contact us with Social Media :
+                        </h4>
+                        <div class="social-container1">
+                            <a href="#" class="social"><i class="fab fa-facebook-f" id="icon"></i></a>
+                            <a href="#" class="social"><i class="fab fa-google-plus-g" id="icon"></i></a>
+                            <a href="#" class="social"><i class="fab fa-linkedin-in" id="icon"></i></a>
+                        </div>
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown Menu
+                </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                <a href="index.html"><button class="dropdown-item" type="button">Home</button></a>
+                                <a href="about.html"><button class="dropdown-item" type="button">About</button></a>
+                                <a href="login.html"><button class="dropdown-item" type="button">Login</button></a>
+                                <a href="registration.html"><button class="dropdown-item" type="button">Registration</button></a>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Contact -->
+    <!-- <nav aria-label="..." class="pag">
+      <ul class="pagination pagination-lg justify-content-center">
+        <li class="page-item" aria-current="page">
+      <a class="page-link active" href="index.html">1</a>
+        </li>
+        <li class="page-item active"><a class="page-link" href="index.html">2</a></li>
+        <li class="page-item"><a class="page-link" href="about.html">3</a></li>
+        <li class="page-item"><a class="page-link" href="login.html">4</a></li>
+        <li class="page-item"><a class="page-link" href="registration.html">5</a></li>
+      </ul>
+    </nav> -->
+    </div>
+    <footer>
+        <p>Copyright &copy; 2021 TOC All Rights Reserved.
+            <br>prepared by : <a href="https://www.facebook.com/profile.php?id=100006893585619" target="_blank">TOC</a></p>
+    </footer>
+    <div id="Lightbox" class="modal">
+        <span class="close pointer" onclick="closeLightbox()">&times;</span>
+        <div class="modal-content">
+            <div class="slide">
+                <img src="images/p1.png" class="image-slide" />
+            </div>
+            <div class="slide">
+                <img src="images/p2.png" class="image-slide" />
+            </div>
+            <div class="slide">
+                <img src="images/p3.png" class="image-slide" />
+            </div>
+            <div class="slide">
+                <img src="images/p4.png" class="image-slide" />
+            </div>
+            <div class="slide">
+                <img src="images/p5.png" class="image-slide" />
+            </div>
+            <div class="slide">
+                <img src="images/p6.png" class="image-slide" />
+            </div>
+            <div class="slide">
+                <img src="images/p7.png" class="image-slide" />
+            </div>
+            <div class="slide">
+                <img src="images/p8.png" class="image-slide" />
+            </div>
+            <a class="previous" onclick="changeSlide(-1)">&#10094;</a>
+            <a class="next" onclick="changeSlide(1)">&#10095;</a>
+            <script src="js/bootstrap.bundle.js"></script>
+            <script src="js/main.js"></script>
+</body>
+
+</html>
